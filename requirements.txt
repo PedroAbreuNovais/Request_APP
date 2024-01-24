@@ -1,1 +1,2 @@
-
+requests
+pyodbc  # or pymysql, depending on your database
