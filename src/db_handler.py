@@ -3,10 +3,10 @@ import pyodbc
 # Configure this with your Azure database credentials
 DATABASE_CONFIG = {
     'driver': '{ODBC Driver 17 for SQL Server}',
-    'server': 'your_server',
-    'database': 'your_database',
-    'username': 'your_username',
-    'password': 'your_password'
+    'server': 'ccfdb.database.windows.net',
+    'database': 'ccfdb',
+    'username': 'adminpedro',
+    'password': '9UAUGKqz=oF;T38wJNKj'
 }
 
 def save_transaction(request_data, response_data):
